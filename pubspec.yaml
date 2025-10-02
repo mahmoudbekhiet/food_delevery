@@ -1,0 +1,52 @@
+name: food_delivery_app
+description: A comprehensive food delivery application with animations and multi-language support
+publish_to: 'none'
+version: 2.0.0+2
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.1.0
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.9
+  intl: 0.20.2
+  google_fonts: ^6.1.0
+  flutter_rating_bar: ^4.0.1
+  image_picker: ^1.0.7
+  url_launcher: ^6.2.4
+  flutter_slidable: ^3.0.1
+  badges: ^3.1.2
+  shimmer: ^3.0.0
+  smooth_page_indicator: ^1.1.0
+  local_auth: ^2.1.8
+  animated_text_kit: ^4.2.2
+  lottie: ^3.0.0
+  flutter_staggered_animations: ^1.1.1
+  flutter_animate: ^4.5.0
+  get: ^4.6.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+flutter_intl:
+  enabled: true
+  class_name: S
+  main_locale: en
+  arb_dir: lib/l10n
+  output_dir: lib/generated
